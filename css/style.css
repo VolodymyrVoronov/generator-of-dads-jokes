@@ -24,6 +24,10 @@ body {
   border-radius: 10px;
 }
 
+.content--animate {
+  transition: 1s;
+}
+
 .content__btn {
   display: block;
   margin: 0;
@@ -52,7 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   width: auto;
-  height: 200px;
+  height: 250px;
 }
 
 .joke__title {
@@ -86,6 +90,19 @@ body {
   padding: 0;
   padding-top: 30px;
   font-size: 45px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.joke__reaction {
+  display: block;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
   text-align: center;
   line-height: 18px;
 }
