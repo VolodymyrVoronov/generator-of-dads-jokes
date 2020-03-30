@@ -1,4 +1,4 @@
-## Generator of dad's jokes
+# Generator of dad's jokes
 
 The project online [here](https://volodymyrvoronov.github.io/generator-of-dads-jokes.io/).
 
